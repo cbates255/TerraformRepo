@@ -10,7 +10,7 @@ resource "aws_instance" "testinstance" {
     connection {
       type = "ssh"
       user = "ec2-user"
-      private_key = file("~/homeDesktop/AWS\ keypairs/latestpair.pem")
+      private_key = file("")
       host = self.public_ip
     }
   }
