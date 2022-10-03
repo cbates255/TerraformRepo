@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "test_instance" {
-  ami = "ami-0636eac5d73e0e5d7"
+  ami = "ami-026b57f3c383c2eec"
   instance_type = "t2.micro"
   tags = {
     "Name" = "firstTFtest"
